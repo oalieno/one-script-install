@@ -1,7 +1,9 @@
 #!/bin/bash
 
-./color.sh
-echo ${green}"install docker..."${normal}
+dirname=$(dirname "$0")
+
+source ${dirname}/color.sh
+echo -e ${green}"install docker..."${normal}
 
 # update apt-get
 sudo apt-get update

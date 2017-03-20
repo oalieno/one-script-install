@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-$PWD/../color.sh
-echo ${green}"install zsh..."${normal}
+dirname=$(dirname "$0")
+
+source ${dirname}/../color.sh
+echo -e ${green}"install zsh..."${normal}
 
 apt-get update
 apt-get install zsh

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-$PWD/powerline-install.sh
-$PWD/powerline-fonts-install.sh
+dirname=$(dirname "$0")
+
+${dirname}/powerline-install.sh
+${dirname}/powerline-fonts-install.sh

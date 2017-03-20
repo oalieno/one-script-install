@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-./color.sh
+dirname=$(dirname "$0")
+
+source ${dirname}/color.sh
 echo ${green}"install pwntools..."${normal}
 
 apt-get update

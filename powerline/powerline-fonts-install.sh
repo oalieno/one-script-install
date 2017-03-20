@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-#PWD/../color.sh
-echo ${green}"install powerline fonts..."${normal}
+dirname=$(dirname "$0")
+
+source ${dirname}/../color.sh
+echo -e ${green}"install powerline fonts..."${normal}
 
 # install fonts
 mkdir -p ~/.fonts

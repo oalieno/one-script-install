@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-$PWD/docker-install.sh
-$PWD/pwntools-install.sh
-$PWD/powerline/all-powerline-install.sh
-$PWD/zsh/all-zsh-install.sh
+dirname=$(dirname "$0")
+
+${dirname}/docker-install.sh
+${dirname}/pwntools-install.sh
+${dirname}/powerline/all-powerline-install.sh
+${dirname}/zsh/all-zsh-install.sh

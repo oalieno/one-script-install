@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-$PWD/zsh-install.sh
-$PWD/oh-my-zsh-install.sh
-$PWD/zsh-completions-install.sh
-$PWD/zsh-autosuggestions-install.sh
+dirname=$(dirname "$0")
+
+${dirname}/zsh-install.sh
+${dirname}/oh-my-zsh-install.sh
+${dirname}/zsh-completions-install.sh
+${dirname}/zsh-autosuggestions-install.sh
