@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+./color.sh
+echo ${green}"install powerline fonts..."${normal}
+
 # install fonts
 mkdir -p ~/.fonts
 mkdir -p ~/.config/fontconfig/conf.d

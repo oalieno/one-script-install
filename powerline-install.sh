@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+./color.sh
+echo ${green}"install powerline..."${normal}
+
 # install powerline
 pip install powerline-status
 

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+./color.sh
+echo ${green}"install docker..."${normal}
+
 # update apt-get
 sudo apt-get update
 
