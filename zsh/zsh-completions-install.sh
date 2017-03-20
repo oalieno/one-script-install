@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./color.sh
+$PWD/../color.sh
 echo ${green}"install zsh completions..."${normal}
 
 git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions

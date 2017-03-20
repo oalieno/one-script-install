@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./color.sh
+$PWD/../color.sh
 echo ${green}"install zsh autosuggestions..."${normal}
 
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions

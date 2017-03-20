@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-./color.sh
+$PWD/../color.sh
 echo ${green}"install zsh..."${normal}
 
 apt-get update
