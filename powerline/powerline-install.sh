@@ -22,4 +22,4 @@ echo "# powerline-status" >> ~/.bashrc
 echo "powerline-daemon -q" >> ~/.bashrc
 echo "POWERLINE_BASH_CONTINUATION=1" >> ~/.bashrc
 echo "POWERLINE_BASH_SELECT=1" >> ~/.bashrc
-echo ". /root/.local/lib/python2.7/site-packages/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
+echo ". ${location}/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
