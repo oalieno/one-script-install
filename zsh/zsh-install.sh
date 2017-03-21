@@ -8,4 +8,5 @@ echo -e ${green}"install zsh..."${normal}
 apt-get update
 apt-get install zsh
 
-chsh -s `which zsh`
+echo -e ${cyan}"If you want to use zsh as your default shell, type : "
+echo -e "chsh -s $(which zsh)"${normal}
